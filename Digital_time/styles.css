@@ -1,0 +1,21 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    background-image: url(img/d75h82.jpg);
+    background-size: cover;
+    position: relative;
+    
+}
+
+#digital-clock{
+    padding: 10px;
+    border-radius: 1em;
+    height: 120px;
+    width: 200px;
+    margin: auto; 
+    font-size: xx-large;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
