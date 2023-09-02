@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Alarm Clock Using Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div id="time"></div>
+        <div id="alarm">
+            <span></span>
+            <button type="button" id="turnoff_alarm">Turn Off Alarm</button>
+            <audio id="alarm_audio" loop muted autoplay src="sound/alarm.mp3"></audio>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        if (time == this.alarmTime) {
+        this.playAlarm();
+    }
+        new Clock('#time', '#alarm', '11:35:1 PM')
+    </script>
+</body>
+</html>
